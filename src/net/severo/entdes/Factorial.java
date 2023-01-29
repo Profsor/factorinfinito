@@ -11,9 +11,11 @@ public class Factorial {
 		String fact= "tekijäluku ";
 		int n = (int) (Math.random() * 10);
 		int result = 1;
+		int i= 1;
 		System.out.println(num + n);
-		while (n > 1) {
-			result = result * (n - 1);
+		while (n >= i) {
+			result = result * i;
+			i++;
 		}
 		System.out.println(fact + result);
 

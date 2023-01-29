@@ -7,8 +7,8 @@ package net.severo.entdes;
 public class Factorial {
 
 	public static void main(String[] args) {
-		String num= "numero ";
-		String fact= "factorial ";
+		String num= "numerus ";
+		String fact= "faktorielle zahl ";
 		int n = (int) (Math.random() * 10);
 		int result = 1;
 		System.out.println(num + n);

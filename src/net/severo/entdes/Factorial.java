@@ -1,7 +1,7 @@
 package net.severo.entdes;
 /**
  * 
- * @author Profesor
+ * @author Tatiana_Garijo
  *
  */
 public class Factorial {
@@ -10,11 +10,12 @@ public class Factorial {
 
 		int n = (int) (Math.random() * 10);
 		int result = 1;
-		System.out.println("Value of n: " + n);
+		String value="Wert von n: ";
+		System.out.println(value + n);
 		while (n > 1) {
 			result = result * (n - 1);
 		}
-		System.out.println("Value of n!: " + result);
+		System.out.println(value + result);
 
 	}
 
